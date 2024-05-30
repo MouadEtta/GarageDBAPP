@@ -40,6 +40,7 @@
             dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView.Location = new Point(51, 129);
+            dataGridView.MultiSelect = false;
             dataGridView.Name = "dataGridView";
             dataGridView.RowHeadersWidth = 51;
             dataGridView.RowTemplate.Height = 29;
@@ -75,7 +76,7 @@
             button4.TabIndex = 4;
             button4.Text = "Nuovo";
             button4.UseVisualStyleBackColor = true;
-            button4.Click += this.buttonNew_Click;
+            button4.Click += buttonNew_Click;
             // 
             // Garage
             // 

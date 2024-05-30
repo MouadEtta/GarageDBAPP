@@ -1,6 +1,6 @@
 ﻿namespace GaragedbAPP
 {
-    partial class FormNuovo
+    partial class FormModificaNuovo
     {
         /// <summary>
         /// Required designer variable.
@@ -117,6 +117,7 @@
             comboBoxMarca.Name = "comboBoxMarca";
             comboBoxMarca.Size = new Size(151, 28);
             comboBoxMarca.TabIndex = 10;
+            comboBoxMarca.SelectedIndexChanged += comboBoxMarca_SelectedIndexChanged;
             // 
             // comboBoxTipo
             // 
